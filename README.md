@@ -5,7 +5,7 @@ tz-lookup by lon and lat
 [![GoDoc](https://godoc.org/gopkg.in/ugjka/go-tz.v2?status.svg)](http://godoc.org/gopkg.in/ugjka/go-tz.v2/tz)
 [![Go Report Card](https://goreportcard.com/badge/gopkg.in/ugjka/go-tz.v2)](https://goreportcard.com/report/gopkg.in/ugjka/go-tz.v2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Donate](https://share.ugjka.net/paypal.svg)](https://www.paypal.me/ugjka)
+[![Donate](paypal.svg?raw=true)](https://www.paypal.me/ugjka)
 
 lookup timezone for a given location
 
@@ -14,6 +14,7 @@ lookup timezone for a given location
 ```go
 import "gopkg.in/ugjka/go-tz.v2/tz"
 ```
+
 ### Example
 
 ```go
@@ -38,15 +39,15 @@ GeoJson Simplification done with [mapshaper](http://mapshaper.org/)
 
 ## Features
 
-* The timezone shapefile is embedded in the build binary using go-bindata
-* Supports overlapping zones
-* You can load your own geojson shapefile if you want
-* Sub millisecond lookup even on old hardware
+- The timezone shapefile is embedded in the build binary
+- Supports overlapping zones
+- You can load your own geojson shapefile if you want
+- Sub millisecond lookup even on old hardware
 
 ## Problems
 
-* Shapefile is simplified using a lossy method so it may be innacurate along the borders
-* This is purely in-memory. Uses ~50MB of ram
+- Shapefile is simplified using a lossy method so it may be innacurate along the borders
+- This is purely in-memory. Uses ~50MB of ram
 
 ## Licenses
 

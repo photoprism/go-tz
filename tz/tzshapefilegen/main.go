@@ -83,8 +83,8 @@ func main() {
 	if len(zipReader.File) == 0 {
 		log.Println("Error: release zip file have no files!")
 		return
-	} else if zipReader.File[0].Name != "dist/combined.json" {
-		log.Println("Error: first file in zip file is not dist/combined.json")
+	} else if zipReader.File[0].Name != "combined.json" {
+		log.Println("Error: first file in zip file is not combined.json")
 		return
 	}
 

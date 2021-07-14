@@ -1,5 +1,7 @@
 # go-tz
 
+## Library archived and no longer maintained, use something elses
+
 tz-lookup by lon and lat
 
 [![GoDoc](https://godoc.org/gopkg.in/ugjka/go-tz.v2?status.svg)](http://godoc.org/gopkg.in/ugjka/go-tz.v2/tz)

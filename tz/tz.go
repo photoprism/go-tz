@@ -29,6 +29,7 @@ import (
 )
 
 func init() {
+	fmt.Println("https://github.com/ugjka/go-tz library archived and no longer maintained, use something else")
 	load()
 }
 

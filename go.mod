@@ -1,4 +1,4 @@
-module github.com/photoprism/go-tz.v2
+module gopkg.in/photoprism/go-tz.v2
 
 require (
 	github.com/machinebox/progress v0.2.0

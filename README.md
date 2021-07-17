@@ -13,7 +13,7 @@ lookup timezone for a given location
 ## Usage
 
 ```go
-import "github.com/photoprism/go-tz.v2/tz"
+import "gopkg.in/photoprism/go-tz.v2/tz"
 ```
 
 ### Example

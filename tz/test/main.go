@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/photoprism/go-tz/tz"
+	"github.com/photoprism/go-tz.v2/tz"
 )
 
 func main() {

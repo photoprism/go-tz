@@ -3,7 +3,7 @@ package tz_test
 import (
 	"fmt"
 
-	"gopkg.in/ugjka/go-tz.v2/tz"
+	"github.com/photoprism/go-tz/tz"
 )
 
 func ExampleGetZone() {

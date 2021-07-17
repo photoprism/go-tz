@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"gopkg.in/ugjka/go-tz.v2/tz"
+	"github.com/photoprism/go-tz/tz"
 )
 
 func main() {

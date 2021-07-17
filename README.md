@@ -1,20 +1,19 @@
 # go-tz
 
-## Library archived and no longer maintained, use something elses
+This is a fork of `https://github.com/ugjka/go-tz`, which is not maintained anymore.
 
 tz-lookup by lon and lat
 
 [![GoDoc](https://godoc.org/gopkg.in/ugjka/go-tz.v2?status.svg)](http://godoc.org/gopkg.in/ugjka/go-tz.v2/tz)
 [![Go Report Card](https://goreportcard.com/badge/gopkg.in/ugjka/go-tz.v2)](https://goreportcard.com/report/gopkg.in/ugjka/go-tz.v2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Donate](paypal.svg?raw=true)](https://www.paypal.me/ugjka)
 
 lookup timezone for a given location
 
 ## Usage
 
 ```go
-import "gopkg.in/ugjka/go-tz.v2/tz"
+import "github.com/photoprism/go-tz/tz"
 ```
 
 ### Example

@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/gopkg.in/photoprism/go-tz.v2)](https://goreportcard.com/report/gopkg.in/photoprism/go-tz.v2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](CODE_LICENSE)
 
-Go library for offline timezone lookup by latitude and longitude. This is a fork of [`ugjka/go-tz`](https://github.com/ugjka/go-tz) that includes the latest [timezone boundaries data](https://github.com/photoprism/go-tz/blob/master/tz/gen.go) and a [Makefile](Makefile) for build automation.
+Go library for fast offline timezone lookup by latitude and longitude. This is a fork of [`ugjka/go-tz`](https://github.com/ugjka/go-tz) that includes the latest [timezone boundaries data](https://github.com/photoprism/go-tz/blob/master/tz/gen.go) and a [Makefile](Makefile) for build automation.
 
 Uses a simplified shapefile from [timezone-boundary-builder](https://github.com/evansiroky/timezone-boundary-builder/) for the lookups. The GeoJSON simplification was done with [mapshaper](http://mapshaper.org/).
 

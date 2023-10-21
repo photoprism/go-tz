@@ -1,6 +1,6 @@
 # gopkg.in/photoprism/go-tz.v2
 
-Go library for offline timezone lookup by latitude and longitude. This is a fork of <https://github.com/ugjka/go-tz> which includes the latest [timezone boundaries data](https://github.com/photoprism/go-tz/blob/master/tz/gen.go) and a [Makefile](Makefile) for build automation.
+Go library for offline timezone lookup by latitude and longitude. This is a fork of <https://github.com/ugjka/go-tz> that includes the latest [timezone boundaries data](https://github.com/photoprism/go-tz/blob/master/tz/gen.go) and a [Makefile](Makefile) for build automation.
 
 [![GoDoc](https://godoc.org/gopkg.in/photoprism/go-tz.v2?status.svg)](http://godoc.org/gopkg.in/photoprism/go-tz.v2/tz)
 [![Go Report Card](https://goreportcard.com/badge/gopkg.in/photoprism/go-tz.v2)](https://goreportcard.com/report/gopkg.in/photoprism/go-tz.v2)

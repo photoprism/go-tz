@@ -17,7 +17,7 @@ endif
 all: mapshaper generate build test
 fmt: fmt-imports fmt-go
 mapshaper:
-	sudo npm install -g mapshaper
+	sudo npm install -g mapshaper@latest
 generate:
 	go generate ./tz/...
 	go fmt ./tz/...

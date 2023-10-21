@@ -17,6 +17,14 @@ var tt = []struct {
 	result
 }{
 	{
+		"Kyiv",
+		Point{35.071987, 48.456528},
+		result{
+			zones: []string{"Europe/Kyiv"},
+			err:   nil,
+		},
+	},
+	{
 		"Riga",
 		Point{24.105078, 56.946285},
 		result{

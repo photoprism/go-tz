@@ -1,4 +1,4 @@
-.PHONY: build mapshaper upgrade generate outdated tidy test fmt fmt-imports fmt-go;
+.PHONY: all fmt mapshaper generate build test tidy dep-list dep-upgrade fmt-imports fmt-go;
 .SILENT: ;               # no need for @
 .ONESHELL: ;             # recipes execute in same shell
 .NOTPARALLEL: ;          # wait for target to finish
@@ -28,9 +28,9 @@ test:
 	$(GOTEST) -parallel 1 -count 1 -cpu 1 -tags slow -timeout 20m ./tz/...
 tidy:
 	go mod tidy
-outdated:
+dep-list:
 	go list -u -m -json all | go-mod-outdated -direct
-upgrade:
+dep-upgrade:
 	go get -u -t ./tz/...
 fmt-imports:
 	goimports -w tz

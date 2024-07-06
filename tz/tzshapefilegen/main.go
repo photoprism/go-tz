@@ -38,7 +38,7 @@ func main() {
 		log.Fatalln("Error: mapshaper executable not found in $PATH")
 	}
 
-	release := flag.String("release", "2023b", "timezone boundary builder release version")
+	release := flag.String("release", "2024a", "timezone boundary builder release version")
 	flag.Parse()
 
 	resp, err := http.Get(fmt.Sprintf(dlURL, *release))
